@@ -1,0 +1,98 @@
+header, main, aside, article, footer {
+	display: block;
+}
+
+body {
+	background-color: #F8FFBD;
+	margin: 0;
+	padding: 20px;
+}
+
+header {
+	height: 300px;
+	background-image: url("https://i.pinimg.com/originals/0f/fb/b8/0ffbb835d3f269f81c3d506e2907f222.jpg");
+	background-size: cover; 
+}
+
+h1 {
+	display: inline-block;
+	float: right;
+	padding-right: 45px;
+	text-transform: capitalize;
+}
+
+main {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside {
+	min-height: 300px;
+	display: inline-block;
+}
+
+article {
+	float: left;
+	width: 75%;
+	text-align: justify;
+}
+
+.padding {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+h2 {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+h3 {
+	padding-left: 25px;
+
+}
+
+aside {
+	background-color: #E8BA75;
+	width: 15%;
+	float: right;
+	min-height: 300px;
+}
+
+.asideheight {
+	height: 500px;
+	margin-bottom: 25px;
+}
+
+aside nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+}
+
+aside nav ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 15px 0;
+	color: black;
+	text-align: center;
+	font-weight: bold;	
+	text-transform: capitalize;
+}
+
+aside span nav ul li a {
+	border-bottom: 1px solid #F3FF74;
+}
+
+
+}
+.minheight {
+	min-height: 300px;
+}
+
+.width {
+	width: 35%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
